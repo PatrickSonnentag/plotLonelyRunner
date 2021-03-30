@@ -52,7 +52,7 @@ def function_f():
             if (np.divide(2 * np.pi, 2 * (numberOfRunners + 1)) < angle <
                     2 * np.pi - np.divide(2 * np.pi, 2 * (numberOfRunners + 1))):
                 is_lonely += 1
-            solutions.append([solution, is_lonely])
+        solutions.append([solution, is_lonely])
     return solutions
 
 
